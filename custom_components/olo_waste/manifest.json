@@ -1,0 +1,12 @@
+{
+  "domain": "olo_waste",
+  "name": "OLO Bratislava Waste",
+  "codeowners": ["@MarekZ98"],
+  "config_flow": true,
+  "documentation": "https://github.com/MarekZ98/ha-olo-waste",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/MarekZ98/ha-olo-waste/issues",
+  "requirements": [],
+  "version": "1.1.0"
+}

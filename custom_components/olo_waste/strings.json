@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "OLO Bratislava",
+        "description": "Type the street and house number as used by OLO.",
+        "data": {
+          "street": "Street and number"
+        }
+      },
+      "address": {
+        "title": "OLO address",
+        "description": "Choose the exact OLO address.",
+        "data": {
+          "address": "Address"
+        }
+      }
+    },
+    "error": {
+      "no_address": "OLO knows no address like this. Try another spelling.",
+      "cannot_connect": "Cannot reach OLO. Try again later."
+    },
+    "abort": {
+      "already_configured": "This address is already configured."
+    }
+  },
+  "entity": {
+    "calendar": {
+      "pickups": { "name": "Waste collection" }
+    },
+    "sensor": {
+      "mixed": { "name": "Mixed waste" },
+      "plastic": { "name": "Plastic" },
+      "paper": { "name": "Paper" },
+      "glass": { "name": "Glass" },
+      "bio": { "name": "Garden bio waste" },
+      "kitchen_bio": { "name": "Kitchen bio waste" },
+      "next_pickup": { "name": "Next pickup" }
+    }
+  }
+}

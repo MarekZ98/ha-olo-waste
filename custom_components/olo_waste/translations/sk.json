@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "OLO Bratislava",
+        "description": "Zadaj ulicu a číslo domu tak, ako ich používa OLO.",
+        "data": {
+          "street": "Ulica a číslo"
+        }
+      },
+      "address": {
+        "title": "Adresa OLO",
+        "description": "Vyber presnú adresu z OLO.",
+        "data": {
+          "address": "Adresa"
+        }
+      }
+    },
+    "error": {
+      "no_address": "OLO takú adresu nepozná. Skús iný zápis.",
+      "cannot_connect": "OLO je nedostupné. Skús to neskôr."
+    },
+    "abort": {
+      "already_configured": "Táto adresa je už nastavená."
+    }
+  },
+  "entity": {
+    "calendar": {
+      "pickups": { "name": "Odvoz odpadu" }
+    },
+    "sensor": {
+      "mixed": { "name": "Zmiešaný odpad" },
+      "plastic": { "name": "Plast" },
+      "paper": { "name": "Papier" },
+      "glass": { "name": "Sklo" },
+      "bio": { "name": "Bioodpad zo záhrad" },
+      "kitchen_bio": { "name": "Kuchynský bioodpad" },
+      "next_pickup": { "name": "Najbližší odvoz" }
+    }
+  }
+}

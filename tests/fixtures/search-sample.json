@@ -1,0 +1,67 @@
+{
+  "hits": [
+    {
+      "type": "pickup-day",
+      "pickup-day": {
+        "address": "Vzorová 1,3"
+      }
+    },
+    {
+      "type": "pickup-day",
+      "pickup-day": {
+        "address": "Vzorová 1,3,5,7"
+      }
+    },
+    {
+      "type": "pickup-day",
+      "pickup-day": {
+        "address": "Vzorová 2A,2B"
+      }
+    },
+    {
+      "type": "pickup-day",
+      "pickup-day": {
+        "address": "Vzorová 5,7"
+      }
+    },
+    {
+      "type": "pickup-day",
+      "pickup-day": {
+        "address": "Vzorná 2"
+      }
+    },
+    {
+      "type": "pickup-day",
+      "pickup-day": {
+        "address": "Vzorná 4"
+      }
+    },
+    {
+      "type": "pickup-day",
+      "pickup-day": {
+        "address": "Vzorná 6"
+      }
+    },
+    {
+      "type": "pickup-day",
+      "pickup-day": {
+        "address": "Vzorná 7"
+      }
+    },
+    {
+      "type": "pickup-day",
+      "pickup-day": {
+        "address": "Vzorná 8"
+      }
+    },
+    {
+      "type": "pickup-day",
+      "pickup-day": {
+        "address": "Námestie Vzorové 1"
+      }
+    }
+  ],
+  "query": "Vzorová 1",
+  "limit": 10,
+  "offset": 0
+}
